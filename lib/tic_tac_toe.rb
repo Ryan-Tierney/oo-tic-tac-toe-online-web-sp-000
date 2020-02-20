@@ -82,10 +82,7 @@ end
 end   
   
   def full?
-    if @board.all? do |occupied| occupied != " "
-      true 
-    else 
-      false 
+   @board.all? do |occupied| occupied != " "
     end
   end 
   
