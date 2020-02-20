@@ -94,6 +94,8 @@ end
     full? || won? || draw? 
   end 
   
+  def winner
+    
   
 end 
 
