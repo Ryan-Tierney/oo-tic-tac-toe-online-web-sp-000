@@ -82,7 +82,7 @@ end
 end   
   
   def full?
-    if @board.all == "X" || @board.all == "O"
+    if @board.all? == "X" || @board.all? == "O"
       true 
     else 
       false 
